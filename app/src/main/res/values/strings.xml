@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AddressBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_group_list">GroupListActivity</string>
+    <string name="Hello">Hello World!</string>
+    <string name="modifier_accueil">Modifier accueil</string>
+</resources>
