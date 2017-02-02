@@ -4,4 +4,5 @@
     <string name="title_activity_group_list">GroupListActivity</string>
     <string name="Hello">Hello World!</string>
     <string name="modifier_accueil">Modifier accueil</string>
+    <string name="camera_photo">Prennez une photo</string>
 </resources>

@@ -27,5 +27,33 @@
         android:layout_height="wrap_content"
         android:onClick="welcomeButtonPressed"
         android:id="@+id/button" />
+    <Button
+        android:text="@string/camera_photo"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/button"
+        android:layout_height="wrap_content"
+        android:onClick="startCamera"
+        android:id="@+id/buttonCamera" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/buttonCamera"
+        android:id="@+id/photocamera" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/photocamera"
+        android:id="@+id/photocameraPicasso" />
+
+
 </RelativeLayout>
 

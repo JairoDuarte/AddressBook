@@ -33,6 +33,7 @@ public class CacheChecker extends AsyncTask<String
             }catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            System.out.println("Jairo Duarte");
             cont++;
             int progress = (int)(cont/(float)params.length*100);
             publishProgress(progress);

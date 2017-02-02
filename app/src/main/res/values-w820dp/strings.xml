@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="modifier_accueil">Modifier accueil</string>
+    <string name="camera_photo">Prennez une photo</string>
 </resources>
